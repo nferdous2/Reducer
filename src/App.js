@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Count from './Components/Count';
+import { useReducer, useState } from 'react';
+import Portal from './Components/Portal';
 
 function App() {
+  // const [users, setUser] = useState([])
+  const [state, dispath] = useReducer()
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Count />
+      <Portal />
     </div>
   );
 }

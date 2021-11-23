@@ -1,0 +1,19 @@
+.count-body{
+    background-color: rgb(86, 132, 172);
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    padding: 10px;
+}
+.btn-body{
+    margin: auto;
+    background-color: rgb(185, 78, 159);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgb(248, 166, 241);
+    text-decoration: none;
+    border: 5px;
+    width: 20%;
+    color: aliceblue;
+    padding: 20px;
+    margin-right: 30px;
+}
